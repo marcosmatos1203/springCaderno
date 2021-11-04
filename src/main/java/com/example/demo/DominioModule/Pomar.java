@@ -28,7 +28,7 @@ public class Pomar implements Serializable{
     @ManyToOne
     @JoinColumn()
     private Produtor produtor;
-    
+
     @ManyToOne
     @JoinColumn()
     private RespTecnico respTecnico;
@@ -144,4 +144,6 @@ public class Pomar implements Serializable{
 
     public void setRespTecnico(RespTecnico respTecnico) {
         this.respTecnico = respTecnico;
+    
     }
+}
